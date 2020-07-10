@@ -1,0 +1,23 @@
+<h1>${message}</h1>
+
+<fast-divider></fast-divider>
+
+<h1>This is the FAST</h1>
+<h2>Header</h2>
+<h3>Font</h3>
+<h4>Ramp...</h4>
+
+<fast-divider></fast-divider>
+
+<h2>Changing Density</h2>
+
+<div>
+  Changing the Density value (css variable) modifies the component density
+</div>
+<fast-slider
+  value.two-way="densityValue"
+  min="0"
+  max="10"
+  step="1"
+></fast-slider>
+<fast-text-field value.two-way="densityValue"></fast-text-field>

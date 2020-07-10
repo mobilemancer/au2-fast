@@ -1,0 +1,14 @@
+<import from="./welcome"></import>
+<import from="./about.html"></import>
+<import from="./missing"></import>
+
+<fast-design-system-provider use-defaults>
+  <div class="container">
+    <nav>
+      <fast-anchor goto="welcome" appearance="stealth">Welcome</fast-anchor>
+      <fast-anchor goto="about" appearance="stealth">About</fast-anchor>
+    </nav>
+
+    <au-viewport default="welcome" fallback="missing"></au-viewport>
+  </div>
+</fast-design-system-provider>

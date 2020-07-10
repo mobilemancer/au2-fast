@@ -1,0 +1,42 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: var(--type-ramp-plus-5-font-size);
+  line-height: var(--type-ramp-plus-5-line-height);
+}
+
+h2 {
+  font-size: var(--type-ramp-plus-4-font-size);
+  line-height: var(--type-ramp-plus-4-line-height);
+}
+
+h3 {
+  font-size: var(--type-ramp-plus-3-font-size);
+  line-height: var(--type-ramp-plus-3-line-height);
+}
+
+h4 {
+  font-size: var(--type-ramp-plus-2-font-size);
+  line-height: var(--type-ramp-plus-2-line-height);
+}
+
+fast-design-system-provider {
+  display: inline-block;
+}
+
+.container {
+  height: calc(100vh - 2 * var(--design-unit) * 1px);
+  width: calc(100vw - 2 * var(--design-unit) * 1px);
+  margin: calc(var(--design-unit) * 1px);
+}
+
+.goto-active {
+  background-color: var(--accent-foreground-active);
+}
+
+.goto-active:hover {
+  background-color: var(--accent-foreground-hover);
+}
